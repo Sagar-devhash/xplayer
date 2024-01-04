@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+       
+
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Player X | Gaming Website</title>
+      <link rel="stylesheet" href="style.css">
+        </head>
+    <body>
+
+
+<nav class="navbar navbar-expand-lg navbar-white col-lg-12 text-white logo-nav" style="background-color: #17161a;">
+
+  <button onclick="testFunction()" class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbarToggler7"  aria-controls="myNavbarToggler7" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="myNavbarToggler7">
+     
+  <ul class="navbar-nav me-5 mx-auto">
+  <li class="nav-item me-2">
+  <a class="nav-link" style="font-weight:500; color:silver; font-size:90%">follow us on:</a>
+  </li>
+  <li>
+    <a class="nav-link fa-brands fa-square-facebook me-3 mt-1 icon" style="cursor:pointer" href="#"></a>
+     </li>
+     <li>
+      <a class="nav-link fa-brands fa-square-twitter me-3 mt-1 icon" style="cursor:pointer" href="#"></a>
+       </li>
+       <li>
+        <a class="nav-link fa-brands fa-youtube me-3 mt-1 icon" style="cursor:pointer" href="#"></a>
+         </li>
+         <li>
+          <a class="nav-link fa-brands fa-instagram me-3 mt-1 icon" style="cursor:pointer" href="#"></a>
+           </li>
+           <li>
+            <a class="nav-link fa-brands fa-twitch mt-1 icon" style="cursor:pointer" href="#"></a>
+             </li>
+  </ul>
+  
+  
+   <ul class="navbar-nav mx-auto">
+    <li class="nav-item">
+      <a class="nav-link" style="font-weight:500; color:silver; font-size:90%">this is playerx, a theme for games, clans and esports</a>
+      </li>
+  </ul>
+</div>
+  
+</div>
+</nav>
+
+  <nav class="navbar navbar-expand-lg navbar-white col-lg-12 sticky-top text-white nav-2" style="background-color: #17161a;">
+
+    <button onclick="testFunction()" class="navbar-toggler ms-auto" src="images/logo-header.png" data-bs-toggle="collapse" data-bs-target="#myNavbarToggler7"  aria-controls="myNavbarToggler7" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="myNavbarToggler7">
+
+  <ul class="navbar-nav mx-auto pt-2">
+
+    <div id="search-overlay" onclick="showSearch()">
+      <div id="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+    <div id="search-modal" onclick="hideSearch()">
+      <div id="search-message">
+        <input type="text" class="bg-transparent border-0" id="search-input" placeholder="TYPE YOUR SEARCH...">
+      </div>
+    </div>
+
+    
+
+    <li class="nav-item me-2">
+     <li> <a class="nav-link text-white home" href="#" style="font-weight:bold;">HOME
+      <div class="line"></div>
+     <!-- <div class="homechild">
+        
+        <ul>
+        <div class="homepage1">
+          <div class="nav-line mt-4"></div>
+        <li style="margin-top:10px">MAIN HOME</li><br>
+        </div>
+        <div class="homepage2">
+          <div class="nav-line "></div>
+        <li style="margin-top:10px" >DEVELOPMENT STUDIO</li><br>
+        </div>
+        <div class="homepage3">
+          <div class="nav-line mt-4"></div>
+        <li style="margin-top:10px">PORTFOLIO CAROUSEL<br>
+        </div>
+        <div class="homepage4">
+          <div class="nav-line mt-4"></div>
+        <li style="margin-top:10px">ESPORTS HOME</li>
+        </div>
+        <div class="homepage5">
+          <div class="nav-line mt-4"></div>
+          <li style="margin-top:10px">PARALLEX HOME</li>
+          </div>
+          <div class="homepage6">
+            <div class="nav-line mt-4"></div>
+            <li style="margin-top:10px">VCARD</li>
+            </div>
+            <div class="homepage7">
+              <div class="nav-line mt-4"></div>
+              <li style="margin-top:10px">COMING SOON</li>
+              </div>
+              <div class="homepage8">
+                <div class="nav-line mt-4"></div>
+                <li style="margin-top:10px">LANDING</li>
+                </div>
+        </ul>
+        </div>-->
+      </a>
+     </li>
+   
+      </li>
+      <li class="nav-item me-2 ">
+        <li> <a class="nav-link text-white home" href="#" style="font-weight:bold;">PAGES
+          <div class="line2"></div>
+          <!--<div class="homechild2">
+            <ul>
+            <div class="homepage1">
+              <div class="nav-line mt-4"></div>
+            <li style="margin-top:10px">ABOUT THE CLAN</li><br>
+            </div>
+            <div class="homepage2">
+              <div class="nav-line"></div>
+            <li style="margin-top:10px" >ABOUT ME</li><br>
+            </div>
+            <div class="homepage3">
+              <div class="nav-line mt-4"></div>
+            <li style="margin-top:10px">OUR SQUAD<br>
+            </div>
+            <div class="homepage4">
+              <div class="nav-line mt-4"></div>
+            <li style="margin-top:10px">MATCH SINGLE</li>
+            </div>
+            <div class="homepage5">
+              <div class="nav-line mt-4"></div>
+              <li style="margin-top:10px">FAQ PAGE</li>
+              </div>
+              <div class="homepage6">
+                <div class="nav-line mt-4"></div>
+                <li style="margin-top:10px">CONTACT US</li>
+                </div>
+            </ul>
+            </div>-->
+          </a>
+         </li>
+
+      </li>
+      <li class="nav-item me-2 ">
+        <li> <a class="nav-link text-white home" href="#" style="font-weight:bold;">PORTFOLIO
+          <div class="line3"></div>
+          <!--<div class="homechild3">
+            <ul>
+            <div class="homepage1">
+              <div class="nav-line mt-4"></div>
+            <li style="margin-top:10px">STANDARD</li><br>
+            </div>
+            <div class="homepage2">
+              <div class="nav-line"></div>
+            <li style="margin-top:10px" >GALLERY</li><br>
+            </div>
+            <div class="homepage3">
+              <div class="nav-line mt-4"></div>
+            <li style="margin-top:10px">MASONRY<br>
+            </div>
+            <div class="homepage4">
+              <div class="nav-line mt-4"></div>
+            <li style="margin-top:10px">LAYOUTS</li>
+            </div>
+            <div class="homepage5">
+              <div class="nav-line mt-4"></div>
+              <li style="margin-top:10px">SINGLE</li>
+              </div>
+          
+            </ul>
+            </div>-->
+          </a>
+         </li>
+    
+      </li>
+      </ul>
+      
+  </ul>
+
+  <div>
+ <img src="images/logo-header.png" class="logo">
+  </div>
+  
+  <ul class="navbar-nav mx-auto pt-2">
+    <li class="nav-item me-2 ">
+      <li> <a class="nav-link text-white home" href="#" style="font-weight:bold;">BLOG
+        <div class="line2"></div>
+        <!--<div class="homechild4">
+          <ul>
+          <div class="homepage1">
+            <div class="nav-line mt-4"></div>
+          <li style="margin-top:10px">RIGHT SIDEBAR</li><br>
+          </div>
+          <div class="homepage2">
+            <div class="nav-line"></div>
+          <li style="margin-top:10px" >LEFT SIDEBAR</li><br>
+          </div>
+          <div class="homepage3">
+            <div class="nav-line mt-4"></div>
+          <li style="margin-top:10px">NO SIDEBAR<br>
+          </div>
+          <div class="homepage4">
+            <div class="nav-line mt-4"></div>
+          <li style="margin-top:10px">POST TYPES</li>
+          </div>
+        
+          </ul>
+          </div>-->
+        </a>
+       </li>
+   
+      </li>
+      <li class="nav-item me-2 ">
+        <li> <a class="nav-link text-white home" href="#" style="font-weight:bold;">SHOP
+          <div class="line2"></div>
+          <!--<div class="homechild5">
+            <ul>
+            <div class="homepage1">
+              <div class="nav-line mt-4"></div>
+            <li style="margin-top:10px">PRODUCT LIST</li><br>
+            </div>
+            <div class="homepage2">
+              <div class="nav-line"></div>
+            <li style="margin-top:10px" >PRODUCT SINGLE</li><br>
+            </div>
+            <div class="homepage3">
+              <div class="nav-line mt-4"></div>
+            <li style="margin-top:10px">SHOP LAYOUTS<br>
+            </div>
+            <div class="homepage4">
+              <div class="nav-line mt-4"></div>
+            <li style="margin-top:10px">SHOP PAGES</li>
+            </div>
+          
+            </ul>
+            </div>-->
+          </a>
+         </li>
+
+      </li>
+      <li class="nav-itemme-2 ">
+        <li> <a class="nav-link text-white home" href="#" style="font-weight:bold;">ELEMENTS
+          <div class="line3"></div>
+          <!--<div class="homechild6">
+            <ul>
+            <div class="homepage1">
+              <div class="nav-line mt-4"></div>
+            <li style="margin-top:10px">CLASSIC</li><br>
+            </div>
+            <div class="homepage2">
+              <div class="nav-line"></div>
+            <li style="margin-top:10px" >INFOGRAPHIC</li><br>
+            </div>
+            <div class="homepage3">
+              <div class="nav-line mt-4"></div>
+            <li style="margin-top:10px">PRESENTATION<br>
+            </div>
+            <div class="homepage4">
+         <div class="nav-line mt-4"></div>
+            <li style="margin-top:10px">TYPOGRAPHIC</li>
+            </div>
+          
+            </ul>
+            </div>-->
+          </a>
+         </li>
+
+      </li>
+  </ul>
+  </div>
+  
+  </div>
+
+  <i class="fa-solid fa-xmark xmark"></i>
+  </nav>
+ 
+  
+
+      
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          </div>
+          
+          <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+              <div class="background-image"></div>
+              <img src="images/slider-1.jpg" class="d-block slider-1" style="width:100%;">
+              <div class="carousel-caption d-flex flex-column justify-content-center h-100">
+                <h1 class="onwards">ONWARDS TO GLORY!</h1>
+                <button class="col-8 col-lg-2 text-white border-0 mt-3 mx-auto buythemebtn" style="height:40px; background-color: red;">BUY THEME</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="background-image2"></div>
+                <img src="images/slider-2.jpg" class="d-block" style="width:100%">
+                <div class="carousel-caption d-flex flex-column justify-content-center h-100">
+                  <h1 class="onwards">YOU SPEAK OF JUSTICE?</h1>
+                  <button class="col-8 col-lg-2 text-white border-0 mt-3 mx-auto buythemebtn" style="height:40px; background-color: red;">BUY THEME</button>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="background-image3"></div>
+                  <img src="images/slider-3.png" class="d-block" style="width:100%">
+                  <div class="carousel-caption d-flex flex-column justify-content-center h-100">
+                    <h1 class="onwards">REPEL THE INVADERS!</h1>
+                    <button class="col-8 col-lg-2 text-white border-0 mt-3 mx-auto buythemebtn" style="height:40px; background-color: red;">BUY THEME</button>
+                    </div>
+                  </div>
+          </div>
+         
+        <div class="container-fluid gradient mb-2" data-aos="zoom-in">
+  <div class="row g-3 mt-2 bg-gradient display d-flex flex-nowrap overflow-auto ">
+    <div class="border-0 col-12 col-lg-2 ">
+      <div class="container-client">
+        <img src="images/client-1.png" class="client-1b" alt="client image">
+        <img src="images/client-1.png" class="client-1" alt="client image">
+      </div>
+    </div>
+    <div class="border-0 col-12 col-lg-2 ">
+      <div class="container-client">
+        <img src="images/client-2.png" class="client-1b" alt="client image">
+        <img src="images/client-2.png" class="client-1" alt="client image">
+      </div>
+    </div>
+    <div class="border-0 col-lg-2 col-12">
+      <div class="container-client">
+        <img src="images/client-3.png" class="client-1b" alt="client image">
+        <img src="images/client-3.png" class="client-1" alt="client image">
+      </div>
+    </div>
+    <div class="border-0 col-lg-2 col-12 ">
+      <div class="container-client">
+        <img src="images/client-4.png" class="client-1b" alt="client image">
+        <img src="images/client-4.png" class="client-1" alt="client image">
+      </div>
+    </div>
+    <div class="border-0 col-lg-2 col-12 ">
+      <div class="container-client">
+        <img src="images/client-5.png" class="client-1b" alt="client image">
+        <img src="images/client-5.png" class="client-1" alt="client image">
+      </div>
+    </div>
+    <div class="border-0 col-lg-2 col-12">
+      <div class="container-client">
+        <img src="images/client-6.png" class="client-1b" alt="client image">
+        <img src="images/client-6.png" class="client-1" alt="client image">
+      </div>
+    </div>
+  </div>
+</div>
+
+              <div class="container text-container mt-5">
+                <div class="row g-3 mt-2 col-lg-8">
+                <h1 class="text-white mt-5 optext">AN <a class="on">OP</a> THEME JUST FOR GAMERS</h1>
+                <p style="color:silver" class="mt-5">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,
+                  nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                  Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio sed non.</p>
+              </div>
+            </div>
+
+            <div class="container-fluid mt-5 blog">
+            <div class="row g-0 ">
+              <div class="card bg-transparent col-12 col-lg-4 card-1 blog-pr">
+              <img src="images/blog-3.jpg" style="height:100%" class="blog-img destiny-2" alt="blog image 1">
+                <div class="card-img-overlay blog-box" style="text-align:center">
+                <div class="bg-text col-12 col-lg-9 h-75 mt-2">
+                  <div class="blog-line"></div>
+                <h4 class="card-title text-white blog-text">WHITE KEEP ASSAULT</h4>
+                <P class="text-white blog-date">June 4, 2018</P>
+                <P class="text-white blog-para">Maecenas tempus, tellus eget condimentum rhoncus, sem quam </P>
+                </div>
+                </div>
+                </div>
+                <div class="card bg-transparent col-12 col-lg-4 card-2 blog-pr">
+                  <img src="images/blog-2.jpg" style="height:100%" class="blog-img" alt="blog image 1">
+                    <div class="card-img-overlay blog-box" style="text-align:center">
+                    <div class="bg-text col-12 col-lg-9 h-75 mt-2">
+                      <div class="blog-line"></div>
+                    <h4 class="card-title text-white blog-text">DOTA 2 TOURNAMENT</h4>
+                    <P href="#" class="text-white blog-date">June 4, 2018</P>
+                    <P class="text-white blog-para">Maecenas tempus, tellus eget condimentum rhoncus, sem quam </P>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="card bg-transparent col-12 col-lg-4 card-3 blog-pr">
+                      <img src="images/blog-1.jpg" style="height:100%" class="blog-img" alt="blog image 1">
+                        <div class="card-img-overlay blog-box" style="text-align:center">
+                        <div class="bg-text col-12 col-lg-9 h-75 mt-2">
+                          <div class="blog-line"></div>
+                        <h4 class="card-title text-white blog-text">WINNERS ON ESL PRO</h4>
+                        <P href="#" class="text-white blog-date">June 4, 2018</P>
+                        <P class="text-white blog-para">Maecenas tempus, tellus eget condimentum rhoncus, sem quam </P>
+                        
+                        </div>
+                        </div>
+                        </div>
+            </div>
+            </div>
+
+            <div class="container text-container mt-5">
+              <div class="row g-3 mt-2 col-lg-8">
+              <h1 class="text-white mt-5 optext">WATCH LIVE STREAMS</h1>
+              </div>
+              </div>
+
+         
+
+              <div class="container mt-5">
+                <div class="row g-0">
+                  <div class="container streambox-nav">
+                    <div class="row">
+                    <div class="text-white twitch col-lg-4 col-4">TWITCH</div>
+                    <div class="text-white youtube col-lg-4 col-4">YOUTUBE</div>
+                    <div class="text-white youtube col-lg-4 col-4">MIXER</div>
+                  </div>
+                  </div>
+                  <a class="card bg-transparent col-12 col-lg-12 card-1 mt-5 blog-pr-2" href="https://www.twitch.tv/">
+
+                  <img src="images/streambox-1.jpg" class="blog-img" style="width:100%" alt="blog image 1">
+                    <div class="card-img-overlay blog-box" style="text-align:center">
+                    <div class="bg-text2 col-8 col-lg-4 h-25 mt-5">
+                      <div class="streambox-line mt-4"></div>
+                    <h5 class="card-title text-white destiny ms-3">DESTINY 2 GAMEPLAY</h5>
+                    <button class="col-8 col-lg-3 text-dark border-0 twitchbtn" style="height:30px; background-color: white;">twitch</button>
+                    <button class="col-8 col-lg-3 text-white border-0 oyabtn" style="height:30px; background-color: red;">oyakkodan</button>
+                  </div>
+                  </div>
+                </a>
+                  <a class="card bg-transparent col-12 col-lg-6 card-2 blog-pr-2" href="https://www.twitch.tv/">
+                    <img src="images/streambox-2.jpg" class="blog-img" style="width:100%" alt="blog image 1">
+                      <div class="card-img-overlay blog-box" style="text-align:center">
+                      <div class="bg-text2 col-8 col-lg-7 h-25 mt-2">
+                        <div class="streambox-line mt-4"></div>
+                      <h5 class="card-title text-white destiny ms-3">CS: GO STREAM</h5>
+                      <i class="fa-solid fa-play playbtn" style="color:white;"></i>
+                      </div>
+                      </div>
+                    </a>
+
+                      <a class="card bg-transparent col-12 col-lg-6 card-3 blog-pr-2" href="https://www.twitch.tv/">
+                        <img src="images/streambox-3.jpg" class="blog-img" style="width:100%" alt="blog image 1">
+                          <div class="card-img-overlay blog-box" style="text-align:center">
+                          <div class="bg-text2 col-8 col-lg-7 h-25 mt-2">
+                            <div class="streambox-line mt-4"></div>
+                          <h5 class="card-title text-white destiny ms-3">DOTA 2 LIVE</h5>
+                          <i class="fa-solid fa-play playbtn" style="color:white;"></i>
+                          </div>
+                          </div>
+                        </a>
+                        
+            
+                  
+                              </div>
+                              </div>
+  
+                              <div class="container-fluid mt-5 h1-bg">
+                                <div class="row g-0">
+                                  <div class="card bg-transparent col-12 col-lg-12 card-1 mt-5">
+                                    <img src="images/h1-bg.jpg">
+                                    <div class="position-relative">
+                                      <img src="images/h1-img.png" id="animated-image" class="col-lg-4 col-4 h1-img" alt="blog image 1">
+                                      <div class="card-img-overlay d-flex justify-content-end align-items-center">
+                                        <div class="row">
+                                          <h1 class="card-title text-white col-lg-6 col-12 mx-auto game-expo" style="font-weight: bold; margin-bottom: 40%;">
+                                            GAME EXPO: WHERE DIGITAL WORLDS MEET REAL INNOVATION
+                                          </h1>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                           
+                              
+                              <div class="container text-container mt-5">
+                                <div class="row g-3 mt-2 col-lg-8">
+                                <h1 class="text-white mt-5 optext">TRENDING MATCHES</h1>
+                                </div>
+                                </div>
+
+                                <div class="container mt-5 d-flex teampr">
+                                    <div class="container vsbox1 h-50">
+                                      <div class="row g-0 mt-4 ms-5">
+                                        <div class=" border-0 col-3 col-lg-3">
+                                        <img src="images/team5.png" class="col-lg-10 teams" alt="client image">
+                                      </div>
+                                      <div class=" border-0 col-2 col-lg-2 mt-5">
+                                        <img src="images/vs_light.png" class="col-lg-7 teams" alt="client image">
+                                      </div>
+                                        <div class="border-0 col-3 col-lg-3">
+                                          <img src="images/team6.png" class="col-lg-10 teams" alt="client image">
+                                        </div>
+                                        </div>
+                                        <div class="row">
+                                        <h5 class="pe-5 text-white col-lg-10 col-10 team-text">NECROMANCY AMPLIFIER</h5>
+                                        <p style="color: silver;" class="team-text">10th November 2018, 12:00</p>
+                                        </div>
+                                        <i class="fa-brands fa-twitch text-white pb-2 me-3"></i>
+                                          <p class="col-lg-2 col-2" style="color:silver;">watch stream</p>
+                                      </div> 
+                                    </div>
+
+                                 
+                                    
+                                      <div class="container vsbox2 h-50">
+                                        <div class="row g-0 mt-4 ms-5">
+                                          <div class=" border-0 col-3 col-lg-3">
+                                          <img src="images/team3.png" class="col-lg-10 teams" alt="client image">
+                                        </div>
+                                        <div class=" border-0 col-2 col-lg-2 mt-5">
+                                          <img src="images/vs_light.png" class="col-lg-7 teams" alt="client image">
+                                        </div>
+                                          <div class="border-0 col-3 col-lg-3">
+                                            <img src="images/team4.png" class="col-lg-10 teams" alt="client image">
+                                          </div>
+                                          </div>
+                                          <div class="row">
+                                          <h5 class="pe-5 text-white col-lg-10 col-10 team-text vs-text4">LEGENDARY BATTLES</h5>
+                                          <p style="color: silver;" class="team-text  vs-text4">10th November 2018, 12:00</p>
+                                          </div>
+                                          <i class="fa-brands fa-twitch text-white pb-2 me-3"></i>
+                                            <p class="col-lg-2 col-2" style="color:silver;">watch stream</p>
+                                        </div> 
+                                     
+                                        <div class="container vsbox2 h-50">
+                                          <div class="row g-0 mt-4 ms-5">
+                                            <div class=" border-0 col-3 col-lg-3">
+                                            <img src="images/team1.png" class="col-lg-10 teams" alt="client image">
+                                          </div>
+                                          <div class=" border-0 col-2 col-lg-2 mt-5">
+                                            <img src="images/vs_light.png" class="col-lg-7 teams" alt="client image">
+                                          </div>
+                                            <div class="border-0 col-3 col-lg-3">
+                                              <img src="images/team2.png" class="col-lg-10 teams" alt="client image">
+                                            </div>
+                                            </div>
+                                            <div class="row">
+                                            <h5 class="pe-5 text-white col-lg-10 col-10 team-text">BATTLE CREEK ONSLAUGHT</h5>
+                                            <p style="color: silver;" class="team-text">26th November 2019, 15:00</p>
+                                            </div>
+                                            <i class="fa-brands fa-twitch text-white pb-2 me-3"></i>
+                                              <p class="col-lg-2 col-2" style="color:silver;">watch stream</p>
+                                          </div> 
+
+                                          <div class="container vsbox2 h-50">
+                                            <div class="row g-0 mt-4 ms-5">
+                                              <div class=" border-0 col-12 col-lg-3">
+                                              <img src="images/team7.png" class="col-lg-10 teams" alt="client image">
+                                            </div>
+                                            <div class=" border-0 col-12 col-lg-2 mt-5">
+                                              <img src="images/vs_finished.png" class="col-lg-7 teams" alt="client image">
+                                            </div>
+                                              <div class="border-0 col-12 col-lg-3">
+                                                <img src="images/team1.png" class="col-lg-10 teams" alt="client image">
+                                              </div>
+                                              </div>
+                                              <div class="row">
+                                              <h5 class="pe-5 text-white col-lg-10 col-10 team-text vs-text4">NAY CORRAL GUNDOWN</h5>
+                                              <p style="color: silver;" class="team-text  vs-text4">4th June 2018, 12:00</p>
+                                              </div>
+                                              <i class="fa-brands fa-twitch text-white pb-2 me-3"></i>
+                                                <p class="col-lg-2 col-2" style="color:white; font-weight: bold;">10:15</p>
+                                            </div> 
+
+                                            <div class="container-fluid parallax">
+                                              <div class="row">
+                                                <div class="border-0 col-12 col-lg-12">
+                                                  <div  class="parallax-img d-flex justify-content-center align-items-center" style="width: 100%;">
+                                                    <div id="countdown" class="text-white mb-5">
+                                                      <div class="container">
+                                                      <div class="row countdownpr">
+                                                      <div class="col-3 col-lg-3">
+                                                        <span id="days" style="font-size:270%">00</span>
+                                                        <div class="smalltext countdownnumbers">GAMES PLAYED</div>
+                                                      </div>
+                                                      <div class="col-3 col-lg-3">
+                                                        <span id="hours" style="font-size:270%">00</span>
+                                                        <div class="smalltext countdownnumbers">FLAGS TAKEN</div>
+                                                      </div>
+                                                      <div class="col-3 col-lg-3">
+                                                        <span id="minutes" style="font-size:270%">00</span>
+                                                        <div class="smalltext countdownnumbers">DEATHMATCHES</div>
+                                                      </div>
+                                                      <div class="col-3 col-lg-3">
+                                                        <span id="tournaments" style="font-size:270%">00</span>
+                                                        <div class="smalltext countdownnumbers">TOURNAMENTS</div>
+                                                      </div>
+                                                    </div>
+                                                    </div>
+                                                  </div>
+                                                  </div>
+                                                </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="container mt-5 contactus">
+                                              <div class="row g-3 mt-2 col-lg-8 col-12">
+                                              <h1 class="text-white mt-5 optext">CONTACT US</h1>
+                                              <p class="col-lg-7" style="color:silver">Proin gravida nibh vel velit auctor aliquet. Aenean velit sollicitudin, lorem quis bibendum auctor,
+                                                 nisi elit ipsum consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate
+                                                 cursus a sit amet mauris.</p>
+                                                 <div class="row">
+                                                 <i class="fa-solid fa-paper-plane text-white col-lg-1 col-1 mt-1"></i>
+                                                 <p style="color:silver" class="col-lg-11 col-11">Auguststraße 245, 10117 Berlin</p>
+                                                 </div>
+                                                 <div class="row">
+                                                 <i class="fa-solid fa-envelope text-white col-lg-1 col-1 mt-1"></i>
+                                                 <p style="color:silver" class="col-lg-11 col-11">playerx@example.com</p>
+                                                 </div>
+                                              </div>
+                                        
+                              
+                                              </div>
+                                              <div class="container form col-lg-12 mt-5">
+                                                <form class="col-lg-6 col-12 mt-5">
+                                                <div class="mt-3">
+                                                <input type="text" class="form-control border-0" id="name" placeholder="Your Name" name="text">
+                                                </div>
+                                                <div class="mb-3 mt-3">
+                                                  
+                                                  <input type="email" class="form-control border-0" id="email" placeholder="Your Email" name="email">
+                                                  </div>
+                                                <div class="mb-3 mt-3">
+                                                  
+                                                  <textarea class="form-control  border-0" rows="5" id="message" placeholder="Your message" name="text"></textarea>
+                                                  </div>
+                                                <button type="submit" class="btn text-white col-lg-12 col-12 submitbtn" style="background-color: red;">Submit</button>
+                                                </form>
+                                                </div>
+
+                                              <div class="container mt-5 gallery">
+                                                <div class="row g-2">
+                                                  <div class="card col-12 col-lg-3 blog-pr bg-transparent">
+                                                    <img src="images/gallery1.jpg" class="blog-img" style="
+                                                      " alt="client image">
+                                                  </div>
+                                                  <div class="card col-12 col-lg-3 blog-pr bg-transparent">
+                                                    <img src="images/gallery2.jpg" class="blog-img" style="width: 100%;height: 100%;" alt="client image">
+                                                  </div>
+                                                  <div class="card col-12 col-lg-6 blog-pr bg-transparent">
+                                                    <img src="images/gallery3.jpg" class="blog-img" style="width: 100%;height: 100%;" alt="client image">
+                                                  </div>
+                                                  <div class="card col-12 col-lg-6 blog-pr bg-transparent">
+                                                    <img src="images/gallery4.jpg" class="blog-img" style="width: 100%;height: 100%;" alt="client image">
+                                                  </div>
+                                                  <div class="card col-12 col-lg-3 blog-pr bg-transparent">
+                                                    <img src="images/gallery5.jpg" class="blog-img" style="width: 100%;height: 100%;" alt="client image">
+                                                  </div>
+                                                  <div class="card col-12 col-lg-3 blog-pr bg-transparent">
+                                                    <img src="images/gallery6.jpg" class="blog-img" style="width: 100%;height: 100%;" alt="client image">
+                                                  </div>
+                                                  </div>
+                                                </div>
+                                       
+                                                <div class="container text-container explore mt-5">
+                                                  <div class="row g-3 mt-2 col-lg-8">
+                                                  <h1 class="text-white mt-5 optext">EXPLORE OUR MERCH</h1>
+                                                  </div>
+                                                  </div>
+
+                                                  
+                                              <div class="container mt-5 shop">
+                                                <div class="row">
+                                                  <div class="card col-12 col-lg-3 bg-transparent border-0">
+                                                    <img src="images/shop1.jpg" style="width: 100%;height: 100%;" alt="client image">
+                                                    <div class="card-body">
+                                                      <div class="row">
+                                                      <h4 class="card-title text-white col-lg-9 col-9">T-SHIRT</h4>
+                                                      <h4 class="text-white col-lg-3 col-3">$35</h4>
+                                                      </div>
+                                                      <p class="card-text text-white">equipment</p>
+                                                      </div>
+                                                  </div>
+                                                  <div class="card col-12 col-lg-3 bg-transparent border-0">
+                                                    <img src="images/shop2.jpg" style="width: 100%;height: 100%;" alt="client image">
+                                                    <div class="card-body">
+                                                      <div class="row">
+                                                      <h4 class="card-title text-white col-lg-9 col-9">ROGM4528</h4>
+                                                      <h4 class="text-white col-lg-3 col-3">$37</h4>
+                                                    </div>
+                                                      <p class="card-text text-white">equipment</p>
+                                                      </div>
+                                                  </div>
+                                                  <div class="card col-12 col-lg-3 bg-transparent border-0">
+                                                    <img src="images/shop3.jpg" style="width: 100%;height: 100%;" alt="client image">
+                                                    <div class="card-body">
+                                                      <div class="row">
+                                                      <h4 class="card-title text-white col-lg-8 col-9">REVENANT</h4>
+                                                      <h4 class="text-white col-lg-4 col-3">$800</h4>
+                                                    </div>
+                                                      <p class="card-text text-white">equipment</p>
+                                                      </div>
+                                                  </div>
+                                                  <div class="card col-12 col-lg-3 bg-transparent border-0">
+                                                    <img src="images/shop4.jpg" style="width: 100%;height: 100%;" alt="client image">
+                                                    <div class="card-body">
+                                                      <div class="row">
+                                                      <h4 class="card-title text-white col-lg-9 col-9">CHROMACORE</h4>
+                                                      <h4 class="text-white col-lg-3 col-3">$15</h4>
+                                                    </div>
+                                                      <p class="card-text text-white">equipment</p>
+                                                      </div>
+                                                  </div>
+                                                  </div>
+                                                 </div>
+                                                 <div class="container-fluid footer-box">
+                                                  <nav class="navbar navbar-expand-sm d-flex justify-content-center mt-5 footer">
+                                                    <ul class="navbar-nav footer-nav">
+                                                      <li class="nav-item col-3">
+                                                        <a class="nav-link footer-item" href="#">HOME</a>
+                                                      </li>
+                                                      <li class="nav-item col-3">
+                                                        <a class="nav-link footer-item" href="#">ABOUT US</a>
+                                                      </li>
+                                                      <li class="nav-item col-3">
+                                                        <a class="nav-link footer-item" href="#">BLOG</a>
+                                                      </li>
+                                                      <li class="nav-item col-3">
+                                                        <a class="nav-link footer-item" href="#">SHOP</a>
+                                                      </li>
+                                                      <li class="nav-item col-3">
+                                                        <a class="nav-link footer-item" href="#">CONTACT US</a>
+                                                      </li>
+                                                      <li class="nav-item col-3">
+                                                        <a class="nav-link footer-item" href="#">PORTFOLIO</a>
+                                                      </li>
+                                                    </ul>
+                                                  </nav>
+                                        
+                                                  
+                                                <div class="container-fluid subscribe h-100">
+                                                  <div class="row col-lg-4">
+                                                    <form class="mt-5">
+                                                      <div class="mt-3">
+                                                      <input type="text" class="form-control bg-transparent newsletter" id="newsletter" placeholder="Subscribe to our Newsletter" name="text">
+                                                      </div>
+
+                                                      <div class="container">
+                                                      <div class="row d-flex justify-content-center mt-4 ms-5 iconrow">
+                                                          <a class="nav-link fa-brands fa-square-facebook mt-1 icon col-lg-2 col-2" style="cursor:pointer" href="#"></a>
+
+                                                            <a class="nav-link fa-brands fa-square-twitter mt-1 icon col-lg-2 col-2" style="cursor:pointer" href="#"></a>
+
+                                                              <a class="nav-link fa-brands fa-youtube mt-1 icon col-lg-2 col-2" style="cursor:pointer" href="#"></a>
+                                                            
+                                                                <a class="nav-link fa-brands fa-instagram  mt-1 icon col-lg-2 col-2" style="cursor:pointer" href="#"></a>
+                                                                 
+                                                                  <a class="nav-link fa-brands fa-twitch mt-1 icon col-lg-2 col-2" style="cursor:pointer" href="#"></a>
+                                                                   </div>
+                                                                  </div>
+                                                                  <br>
+                                                </div>
+
+                                      
+    
+                                                </div>
+                                              </div>
+
+                                       
+                                              <button onclick="scrollToTop()" id="scrollButton" title="Go to top">Top</button>
+
+                                              <button id="shopButton">
+                                                <i class="fa-solid fa-cart-shopping"></i>
+                                              </button>
+
+                                              <div id="sidebar" class="sidebar">
+                                                <button id="closeBtn" class="close-btn">&times;</button>
+                                                <div class="container">
+                                              <img src="images/qode.png" style="width:50%; cursor: pointer;">
+                                              <h2 style="font-size: 100%;">RELATED THEMES</h2>
+                                              <div class="row">
+                                                <img class="mt-3" style=" cursor: pointer;" src="images/sidebarimg1.png">
+                                                <h2 class="mt-2" style="font-size: 100%;">Artorias</h2>
+                                                <p class="col-lg-10 col-10" style="font-size: 70%;">GAMING</p>
+                                                <p class="col-lg-2 col-2" style="font-size: 70%;">$85</p>
+                                                </div>
+
+                                                <div class="row">
+                                                  <img class="mt-3" style=" cursor: pointer;" src="images/sidebarimg2.png">
+                                                  <h2 class="mt-2" style="font-size: 100%;">Overworld</h2>
+                                                  <p class="col-lg-10 col-10" style="font-size: 70%;">GAMING</p>
+                                                  <p class="col-lg-2 col-2" style="font-size: 70%;">$85</p>
+                                                  </div>
+
+                                                  <div class="row">
+                                                    <img class="mt-3" style=" cursor: pointer;" src="images/sidebarimg3.png">
+                                                    <h2 class="mt-2" style="font-size: 100%;">Entropia</h2>
+                                                    <p class="col-lg-10 col-10" style="font-size: 70%;">GAMING</p>
+                                                    <p class="col-lg-2 col-2" style="font-size: 70%;">$85</p>
+                                                    </div>
+
+                                                    <div class="row">
+                                                      <img class="mt-3" style=" cursor: pointer;" src="images/sidebarimg4.png">
+                                                      <h2 class="mt-2" style="font-size: 100%;">Eldritch</h2>
+                                                      <p class="col-lg-10 col-10" style="font-size: 70%;">GAMING</p>
+                                                      <p class="col-lg-2 col-2" style="font-size: 70%;">$85</p>
+                                                      </div>
+
+                                                      <br>
+
+                                                      <h2 style="font-size: 100%;">NEW THEMES</h2>
+
+                                                      <div class="row">
+                                                        <img class="mt-3" style=" cursor: pointer;" src="images/sidebarimg5.png">
+                                                        <h2 class="mt-2" style="font-size: 100%;">Al Forno</h2>
+                                                        <p class="col-lg-10 col-10" style="font-size: 70%;">FOOD & RESTAURANTS</p>
+                                                        <p class="col-lg-2 col-2" style="font-size: 70%;">$85</p>
+                                                        </div>
+
+                                                        <div class="row">
+                                                          <img class="mt-3" style=" cursor: pointer;" src="images/sidebarimg6.png">
+                                                          <h2 class="mt-2" style="font-size: 100%;">Boogie</h2>
+                                                          <p class="col-lg-10 col-10" style="font-size: 70%;">CREATIVE BUSINESS</p>
+                                                          <p class="col-lg-2 col-2" style="font-size: 70%;">$89</p>
+                                                          </div>
+
+                                                          <div class="row">
+                                                            <img class="mt-3" style=" cursor: pointer;" src="images/sidebarimg7.png">
+                                                            <h2 class="mt-2" style="font-size: 100%;">BeatMove</h2>
+                                                            <p class="col-lg-10 col-10" style="font-size: 70%;">SPORT & FITNESS</p>
+                                                            <p class="col-lg-2 col-2" style="font-size: 70%;">$79</p>
+                                                            </div>
+
+                                                            <div class="row">
+                                                              <img class="mt-3" style=" cursor: pointer;" src="images/sidebarimg8.jpg">
+                                                              <h2 class="mt-2" style="font-size: 100%;">FirstFrame</h2>
+                                                              <p class="col-lg-10 col-10" style="font-size: 70%;">FILM</p>
+                                                              <p class="col-lg-2 col-2" style="font-size: 70%;">$89</p>
+                                                              </div>
+
+                                                              <div class="row">
+                                                                <img class="mt-3" style=" cursor: pointer;" src="images/sidebarimg9.png">
+                                                                <h2 class="mt-2" style="font-size: 100%;">Agraria</h2>
+                                                                <p class="col-lg-10 col-10" style="font-size: 70%;">FOOD & RESTAURANTS</p>
+                                                                <p class="col-lg-2 col-2" style="font-size: 70%;">$79</p>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                  <img class="mt-3" style=" cursor: pointer;" src="images/sidebarimg10.png">
+                                                                  <h2 class="mt-2" style="font-size: 100%;">Bestow</h2>
+                                                                  <p class="col-lg-10 col-10" style="font-size: 70%;">WOODCOMMERCE</p>
+                                                                  <p class="col-lg-2 col-2" style="font-size: 70%;">$85</p>
+                                                                  </div>
+
+                                                                  <div class="row">
+                                                                    <img class="mt-3" style=" cursor: pointer;" src="images/sidebarimg11.png">
+                                                                    <h2 class="mt-2" style="font-size: 100%;">Leroux</h2>
+                                                                    <p class="col-lg-10 col-10" style="font-size: 70%;">BUSINESS</p>
+                                                                    <p class="col-lg-2 col-2" style="font-size: 70%;">$85</p>
+                                                                    </div>
+
+                                                                    <div class="row">
+                                                                      <img class="mt-3" style=" cursor: pointer;" src="images/sidebarimg12.png">
+                                                                      <h2 class="mt-2" style="font-size: 100%;">Rodest</h2>
+                                                                      <p class="col-lg-10 col-10" style="font-size: 70%;">CREATIVE BUSINESS</p>
+                                                                      <p class="col-lg-2 col-2" style="font-size: 70%;">$89</p>
+                                                                      </div>
+
+                                                                      <div class="row">
+                                                                        <img class="mt-3" style=" cursor: pointer;" src="images/sidebarimg13.png">
+                                                                        <h2 class="mt-2" style="font-size: 100%;">Niemeyer</h2>
+                                                                        <p class="col-lg-10 col-10" style="font-size: 70%;">ARCHITECTURE</p>
+                                                                        <p class="col-lg-2 col-2" style="font-size: 70%;">$85</p>
+                                                                        </div>
+
+                                                                        <div class="row">
+                                                                          <img class="mt-3" style=" cursor: pointer;" src="images/sidebarimg14.png">
+                                                                          <h2 class="mt-2" style="font-size: 100%;">Stronger</h2>
+                                                                          <p class="col-lg-10 col-10" style="font-size: 70%;">SPORT & FITNESS</p>
+                                                                          <p class="col-lg-2 col-2" style="font-size: 70%;">$79</p>
+                                                                          </div>
+
+                                                                          <div class="row">
+                                                                            <img class="mt-3" style=" cursor: pointer;" src="images/sidebarimg15.png">
+                                                                            <h2 class="mt-2" style="font-size: 100%;">NewHome</h2>
+                                                                            <p class="col-lg-10 col-10" style="font-size: 70%;">REAL ESTATE</p>
+                                                                            <p class="col-lg-2 col-2" style="font-size: 70%;">$89</p>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                              <img class="mt-3" style=" cursor: pointer;" src="images/sidebarimg16.png">
+                                                                              <h2 class="mt-2" style="font-size: 100%;">Becca</h2>
+                                                                              <p class="col-lg-10 col-10" style="font-size: 70%;">TECHNOLOGY</p>
+                                                                              <p class="col-lg-2 col-2" style="font-size: 70%;">$85</p>
+                                                                              </div>
+
+                                                                              <div class="row">
+                                                                                <img class="mt-3" style=" cursor: pointer;" src="images/sidebarimg17.png">
+                                                                                <h2 class="mt-2" style="font-size: 100%;">LuxeDrive</h2>
+                                                                                <p class="col-lg-10 col-10" style="font-size: 70%;">SEVICES & INDUSTRY</p>
+                                                                                <p class="col-lg-2 col-2" style="font-size: 70%;">$79</p>
+                                                                                </div>
+
+                                                                                <div class="row">
+                                                                                  <img class="mt-3" style=" cursor: pointer;" src="images/sidebarimg18.png">
+                                                                                  <h2 class="mt-2" style="font-size: 100%;">SupremeCourt</h2>
+                                                                                  <p class="col-lg-10 col-10" style="font-size: 70%;">LAW</p>
+                                                                                  <p class="col-lg-2 col-2" style="font-size: 70%;">$79</p>
+                                                                                  </div>
+
+                                                                                  <div class="row">
+                                                                                    <img class="mt-3" style=" cursor: pointer;" src="images/sidebarimg19.jpg">
+                                                                                    <h2 class="mt-2" style="font-size: 100%;">Jimmie</h2>
+                                                                                    <p class="col-lg-10 col-10" style="font-size: 70%;">FOOD & RESTAURANTS</p>
+                                                                                    <p class="col-lg-2 col-2" style="font-size: 70%;">$85</p>
+                                                                                    </div>
+
+                                                                                  
+                                              </div>
+                                              </div>
+                                              
+                                              <div id="main">
+                                                <button id="openBtn" class="open-btn">RELATED</button>
+                                              </div>
+                                              
+                                              
+                                              
+              <div id="cursor"></div>
+
+              <div id="loading-screen">           
+                <div class="loader"></div>
+              </div>
+
+          <script src="script.js"></script>
+
+    </body>
+</html>
